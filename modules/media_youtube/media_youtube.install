@@ -1,0 +1,46 @@
+<?php
+// $Id: media_youtube.install,v 1.1.4.2 2011/01/05 21:06:57 aaron Exp $
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Media: YouTube module.
+ */
+
+/**
+ * Implement hook_install().
+ */
+function media_youtube_install() {
+  return array();
+}
+
+/**
+ * Implement hook_uninstall().
+ */
+function media_youtube_uninstall() {
+  foreach (media_youtube_variable_default() as $variable => $value) {
+    media_youtube_variable_del($variable);
+  }
+  return array(array('success' => TRUE, 'query' => "Deleted all variables in the Media: YouTube namespace."));
+}
+
+/**
+ * Clear style and preset caches.
+ */
+function media_youtube_update_7001() {
+  // We don't do this if we're using version 1 of Styles.
+  if (function_exists('styles_style_flush')) {
+    styles_style_flush();
+  }
+  // Ensure we catch new module files.
+  cache_clear_all();
+
+  return array();
+}
+
+/**
+ * Rebuild themes.
+ */
+function media_youtube_update_7002() {
+  drupal_theme_rebuild();
+  return array();
+}

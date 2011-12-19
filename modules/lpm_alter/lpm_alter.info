@@ -1,0 +1,5 @@
+; $Id: $
+name = Lets play Music Alter
+description = Alters the page array to make it easier to have images and content on one creation page.
+core = 7.x
+package = Lets Play Music

@@ -1,0 +1,1199 @@
+body{
+	background-color:#FFFFFF;
+	color:#333333;
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:12px;
+}
+li{
+	text-align: left !important;
+}
+ul.menu li a{
+	text-decoration: none;
+}
+a, a:hover{
+	text-decoration: none !important;
+}
+
+.block  {
+float:left;
+margin-bottom:0 !important;
+width:100%;
+
+}
+#sidebar-last img{
+	margin-bottom: 15px;
+}
+#sidebar-first .block,
+#sidebar-last .block{
+	margin-bottom: 1.5em !important;
+}
+
+#sidebar-first .block .inner{
+	margin-left:10px;
+	margin-right:5px;
+}
+#sidebar-last .block .inner{
+	margin-left:5px;
+	margin-right:10px;
+}
+#main-content .block .inner{
+	margin-left:5px;
+
+}
+
+div.main-menu li,
+div.secondary-menu li{
+	float: left;
+	list-style: none;
+}
+div.main-menu ul{
+	margin-bottom: 0 !important;
+}
+#site-header{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.front #site-header{
+	margin-bottom: 20px;
+}
+#site-header,
+#site-menu{
+	height: 166px;
+	
+}
+
+div.content-help{
+	margin-bottom:0;
+
+}
+
+#sidebar-first li,
+#sidebar-first ul{
+	list-style-type: none !important;
+	list-style: none !important;
+}
+li{
+	list-style: disc;
+}
+.node {
+    border-bottom: none !important;
+
+}
+
+h1,h3,h4{
+	font-family:Verdana,Geneva,sans-serif !important;
+	letter-spacing: .01em;
+}
+h2{
+    font-family: Arial,sans-serif !important;
+    	letter-spacing: .01em;
+}
+#site-menu{
+	position: relative;
+	text-align: left !important;
+}
+
+div.status {
+    border-color: #C7F2C8;
+    color: #33A333;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.not-logged-in #my-account,
+.not-logged-in .downlow{
+	display: none !important;
+}
+#footer-last{
+	color: #666666;
+	font-size: 12px;
+}
+/* ======= Header Menus ========*/
+
+div.main-menu{
+	position: absolute;
+	width: 940px;
+	text-align: left !important;
+	bottom: 0;
+	overflow: visible;
+}
+div.main-menu.block{
+	margin-bottom: 0 !important;
+}
+div.main-menu .inner{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+div.main-menu ul{
+	margin-left: 0 !important;
+}
+div.main-menu ul li{
+	float: left;
+	list-style: none;
+}
+div.secondary-menu {
+	float: right;
+	width: 940px;
+	position: absolute;
+	top: -35px;
+}
+.raise-your-voice{
+	margin-bottom:0 !important;
+	padding:8px 12px;
+}
+#main{
+	margin-bottom: 20px;
+}
+.front #main{
+	margin-bottom: 0 !important;
+}
+.front #main-content-container{
+	z-index: 0;
+	
+}
+.front #postscript-wrapper{
+	z-index: 2;
+}
+.front #footer-wrapper{
+	z-index: 1;
+}
+#postscript-wrapper{
+	padding-top: 15px;
+}
+.not-logged-in  #content-tabs,
+.front  #content-tabs{
+	display: none;
+	visibility: hidden;
+}
+
+.top-page-menu{
+	position: absolute;
+	z-index: 500;
+	top: -40px;
+	right: 25px;
+}
+.top-page-menu li{
+	float: left;
+	list-style: none;
+	overflow: hidden;
+	padding: 0 2px !important;
+}
+.top-page-menu li a.view-a-video{
+	display: block;
+	width: 200px;
+	height: 34px;
+	background: url('../images/viewVideoButton.jpg') no-repeat;
+	text-indent: -9000px;
+	text-transform: uppercase;
+}
+.top-page-menu li a.roster{
+	display: block;
+	width: 272px;
+	height: 34px;
+	background: url('../images/student-roster.png') no-repeat;
+	text-indent: -9000px;
+	text-transform: uppercase;
+}
+.top-page-menu li a.ten-years{
+	display: block;
+	width: 154px;
+	height: 34px;
+	background: url('../images/10years.jpg') no-repeat;
+	text-indent: -9000px;
+	text-transform: uppercase;
+}
+.not-logged-in .top-page-menu li.menu-532{
+	display: block;
+	width: 158px;
+	height: 53px;
+	background: url('../images/turnOn.png') no-repeat;
+	text-indent: -9000px;
+	text-transform: uppercase;
+}
+.logged-in .top-page-menu li a.turn-music-on{
+	display: block;
+	width: 158px;
+	height: 53px;
+	background: url('../images/webstore.png') no-repeat;
+	text-indent: -9000px;
+	text-transform: uppercase;
+}
+span.blog-btn-img{
+	background: url('../images/seeHowFlag.png') no-repeat;
+	display:block;
+	height:107px;
+	left:-65px;
+	position:absolute;
+	top:-103px;
+	width:82px;
+}
+li.blog{
+	position: relative;
+}
+
+/* ======= Front page colors/styles ========== */
+.front #site-menu,
+#site-menu{
+	background: url('../images/headers/greenHeaderFixed.jpg') 0 0 no-repeat;
+}
+.front #footer-wrapper, #footer-wrapper{
+	background: url('../images/footers/greenFooter_fixed.jpg') 10px 0 no-repeat !important;
+	margin-top: 15px;
+	z-index: -1;
+}
+#block-block-4 {
+	width: 240px;
+}
+#block-views-front-page-testimonials-block-1{
+	width: 680px;
+	padding: 10px 0 0 0;
+	color: #056926;
+	background: url('../images/quote-large.png') no-repeat left 30px;	
+}
+#block-views-front-page-testimonials-block-1 h6{
+	margin-bottom: 3px;
+    padding: 0 0 0 85px;
+    	font-weight: bold;	
+}
+
+#block-views-front-page-testimonials-block-1 h6 a{
+	color: #056926;
+	font-weight: bold;
+}
+#views_slideshow_cycle_main_front_page_testimonials-block_1{
+	margin-left: 85px;
+}
+#block-views-front-page-testimonials-block-1 p{
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+.testimonial-name{
+	float: right;
+	padding-right: 20px;
+}
+.testimonial-name a{
+	text-decoration: underline !important;
+	color: #056926;
+	font-weight: bold;
+}
+.front div.main-menu,
+div.main-menu{
+	background-color:#348B04;
+}
+.front div.main-menu li a,
+div.main-menu li a{
+	background-color:#348B04;
+	color:#FFFFFF;
+	display:block;
+	height:24px;
+	padding:1px 6px;
+	text-decoration:none;
+	line-height:2em;
+	border-right:3px solid #73BC1E !important;
+}
+div.main-menu li span.blog-btn-img a{
+    background-color: transparent !important;
+    height: 95px !important;
+    width: 61px !important;
+    border-right: none !important;
+}
+.front div.main-menu li a:hover,
+div.main-menu li a:hover,
+.front div.main-menu li.active-trail a,
+div.main-menu li.active-trail a{
+	background-color: #73BC1E;
+
+}
+div.main-menu li.sfHover{
+	background-color: #73BC1E !important;
+}
+div.main-menu li.menuparent ul{
+	width: 175px !important;
+	background-color: #73BC1E;
+	margin-left: -3px;
+}
+div.main-menu li.menuparent ul li a{
+	background-color: #73BC1E;
+
+}
+.front h1#page-title,
+.front div#first-time{
+	display: none;
+	visibility: hidden;
+}
+.front-page-images{
+	height: 450px;
+	overflow: visible;
+}
+#front_page_block{
+border:0 solid;
+clear:left;
+float:left;
+width:396px;
+}
+#front_page_block .left {
+clear:left;
+float:left;
+width:193px;
+}
+#front_page_block .left img,
+#front_page_block .right img{
+	margin-bottom: 5px;
+}
+#front_page_block .right {
+clear:right;
+float:right;
+width:193px;
+}
+#homeContentRight {
+	background:url("../images/homeSingLearnPlay.jpg") no-repeat scroll 0 0 transparent;
+	border:0 solid;
+    height: 349px;
+    left: 406px;
+    position: absolute;
+    width: 292px;
+}
+#homeContentRight a{
+    height: 349px;
+    left: 0;
+    position: absolute;
+    width: 292px;
+    display: block;	
+    z-index: 200;
+}
+#homeContentRight .kids {
+margin-left:206px;
+position:relative;
+
+}
+.front #main-wrapper .row,
+.front #main-wrapper .nested,
+.front #main-wrapper .block {
+overflow:visible !important;
+}
+
+/* ======= Sidebar section colors =========*/
+#sidebar-first ul.menu{
+	margin-left: 0 !important;
+}
+#sidebar-first ul.menu li{
+background: #5B71B2;
+display:block;
+list-style:none;
+margin-bottom:8px;
+padding: 0 0 0 10px !important;
+height: 25px;
+width: 190px;
+}
+#sidebar-first ul.menu li a{
+	height: 25px;
+	width: 185px;
+	background: #232F79;
+	color:#FFFFFF;
+	display:block;
+	padding-left:5px;
+	line-height: 1.7em !important;
+	font-size: 1.1em;
+}
+#sidebar-first ul.menu li a:hover{
+	text-indent: 5px;
+	text-decoration: none;	
+}
+.page-downloads #sidebar-first ul.menu li a{
+	height: 25px;
+	width: 185px;
+	background: #232F79;
+	color:#FFFFFF;
+	display:block;
+	padding-left:5px;
+	line-height: 2em !important;
+	font-size: 1em;
+}
+/* ======= Philosophy section colors =========*/
+
+body.node-type-philosophy #site-menu{
+	background: url('../images/headers/orangeHeaderFixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-philosophy #footer-first{
+	background: url('../images/footers/orangeFooter_fixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-philosophy div.main-menu{
+	background-color:#FD5C01;
+}
+.node-type-philosophy div.main-menu li a{
+	background-color:#FD5C01;
+	color:#FFFFFF;
+	display:block;
+	height:24px;
+	padding:1px 6px;
+	text-decoration:none;
+	line-height:2em;
+	border-right:3px solid #FE9900 !important;
+
+}
+
+.node-type-philosophy div.main-menu li a:hover,
+.node-type-philosophy div.main-menu li.active-trail a{
+	background-color:#FE9900;
+
+}
+	/* ------Main Content-------*/
+.node-type-philosophy #page-title {
+	background-color:#FE9900;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:lighter;
+	padding:15px;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	text-transform: uppercase;	
+}
+.node-type-philosophy #main-wrapper-inner{
+	line-height:2.0em;
+	padding:0 25px 40px;
+	text-align: justify;
+	border-left: 1px solid #FD5C01;
+	border-right: 1px solid #FD5C01;
+}
+	/* ------Sidebar Content-------*/
+	.node-type-philosophy #sidebar-first h2{
+	background-color:#FD5C01;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:lighter;
+	padding:15px;
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	line-height:26px;
+	text-transform: uppercase;
+	margin-bottom: .5em;
+}
+	
+/* ======= Curriculum section colors =========*/
+body.node-type-curriculum h1#page-title{
+	display: none;
+	visibility: hidden;
+}
+
+body.node-type-curriculum #site-menu{
+	background: url('../images/headers/redHeaderFixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-curriculum #footer-first{
+	background: url('../images/footers/redFooter_fixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-curriculum div.main-menu{
+	background-color:#990000;
+}
+.node-type-curriculum div.main-menu li a{
+	background-color:#990000;
+	color:#FFFFFF;
+	display:block;
+	height:24px;
+	padding:1px 6px;
+	text-decoration:none;
+	line-height:2em;
+	border-right:3px solid #B90000 !important;
+}
+
+.node-type-curriculum div.main-menu li a:hover,
+.node-type-curriculum div.main-menu li.active-trail a{
+	background-color:#B90000;
+
+}
+	/* ------Main Content-------*/
+.node-type-curriculum #main-content .title {
+	background-color:#B90000;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:lighter;
+	padding:15px;
+	margin: 0 20px;
+	line-height: 1.5em;
+}
+.node-type-curriculum #main-wrapper-inner{
+	line-height:1.9em;
+	margin-bottom:0;
+	padding:0 25px 40px;
+	text-align: justify;
+	border-left: 1px solid #990000;
+	border-right: 1px solid #990000;
+}
+
+.field-name-field-curr-description-title{
+	background-color:#B90000;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:lighter;
+	padding:10px 15px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+	/* ------Sidebar Content-------*/
+	.node-type-curriculum #sidebar-first h2{
+	background-color:#990000;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:lighter;
+	padding:15px;
+	margin-bottom: 15px;
+}
+
+.curriculum-img{
+	background: url('../images/curriculum_squares.jpg');
+	height: 150px;
+	width: 662px;
+	position: relative;
+	margin:0 0 40px -7px;
+}
+
+.curriculum-img a{
+display:block;
+float:left;
+height:107px;
+margin-top:42px;
+width:100px;
+}
+.curriculum-img a.green{
+margin-left: 31px;
+}
+
+.curriculum-img a.purpule{
+margin-left: 29px
+}
+/* ======= For Parents section colors =========*/
+
+body.node-type-for-parents #site-menu,
+body.page-for-parents #site-menu{
+	background: url('../images/headers/purpleHeaderFixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-for-parents #footer-first,
+body.page-for-parents #footer-first{
+	background: url('../images/footers/purpleFooter_fixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-for-parents div.main-menu,
+body.page-for-parents div.main-menu{
+	background-color:#420049;
+}
+.node-type-for-parents div.main-menu li a,
+body.page-for-parents div.main-menu li a{
+	background-color:#420049;
+	color:#FFFFFF;
+	display:block;
+	height:24px;
+	padding:1px 6px;
+	text-decoration:none;
+	line-height:2em;
+	border-right:3px solid #830C87 !important;
+}
+
+.node-type-for-parents div.main-menu li a:hover,
+.page-for-parents div.main-menu li a:hover,
+.node-type-for-parents div.main-menu li.active-trail a,
+.page-for-parents div.main-menu li.active-trail a{
+	background-color:#830C87;
+
+}
+	/* ------Main Content-------*/
+.node-type-for-parents #main-content .field-name-field-for-parents-title,
+.page-for-parents #main-wrapper-inner #page-title {
+	background-color:#830C87;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:lighter;
+	padding:15px;
+	line-height: 1.5em;
+	margin: 0 0 15px 0;
+}
+.node-type-for-parents #main-wrapper-inner,
+body.page-for-parents #main-wrapper-inner{
+	line-height:1.8em;
+	padding:0 20px 40px;
+	text-align: justify;
+	border-left: 1px solid #420049;
+	border-right: 1px solid #420049;
+}
+	/* ------Sidebar Content-------*/
+	.node-type-for-parents #sidebar-first h2,
+	body.page-for-parents #sidebar-first h2{
+	background-color:#420049;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:lighter;
+	padding:15px;
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	line-height:26px;
+	text-transform: uppercase;
+	margin-bottom: 15px;	
+}
+.node-type-for-parents h1#page-title{
+	display: none;
+	visibility: hidden;
+}
+
+.page-node-39 #main-wrapper-inner{
+	text-align: left !important;
+}
+/* ======= For Teachers section colors / FAQ Section =========*/
+
+body.node-type-for-teachers #site-menu,
+body.page-node-53 #site-menu,
+body.page-downloads #site-menu{
+	background: url('../images/headers/blueHeaderFixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-for-teachers #footer-first,
+body.page-node-53 #footer-first,
+body.page-downloads #footer-first{
+	background: url('../images/footers/blueFooter_fixed.jpg') 0 0 no-repeat !important;
+}
+body.node-type-for-teachers div.main-menu,
+body.page-node-53 div.main-menu,
+body.page-downloads div.main-menu{
+	background-color:#182D77;
+}
+.node-type-for-teachers div.main-menu li a,
+.page-node-53 div.main-menu li a,
+.page-downloads div.main-menu li a{
+	background-color:#182D77;
+	color:#FFFFFF;
+	display:block;
+	height:24px;
+	padding:1px 6px;
+	text-decoration:none;
+	line-height:2em;
+	border-right:3px solid #426CAE !important;
+}
+
+.node-type-for-teachers div.main-menu li a:hover,
+.node-type-for-teachers div.main-menu li.active-trail a,
+.page-node-53 div.main-menu li a:hover,
+.page-node-53 div.main-menu li.active-trail a,
+.page-downloads div.main-menu li a:hover,
+.page-downloads div.main-menu li.active-trail a{
+	background-color:#426CAE;
+
+}
+	/* ------Main Content-------*/
+.node-type-for-teachers #main-content .field-name-field-for-teacher-title,
+.page-node-53 #page-title,
+.page-downloads #page-title{
+	background-color:#426CAE !important;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:lighter;
+	padding:15px;
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+.node-type-for-teachers #main-wrapper-inner,
+.page-node-53 #main-wrapper-inner,
+.page-downloads #main-wrapper-inner {
+	line-height:1.5em;
+	padding:0 20px 40px;
+	text-align: justify;
+	border-left: 1px solid #182D77;
+	border-right: 1px solid #182D77;
+}
+.node-type-for-teachers #main-wrapper-inner h3 {
+	text-align: left !important;
+	line-height: 1.3em;
+}
+.node-type-for-teachers #main-wrapper-inner li{
+	margin: 4px 0 3px 20px;
+	list-style: disc;
+	
+}
+
+.faq-question{
+	font-weight: bold;
+	float: left;
+	padding-right: 10px;
+	list-style: disc;
+	display: list-item;
+	margin-left: 25px;
+	font-size: 13px;
+	height: 20px;
+}
+.faq-answer{
+	padding-left: 25px;
+	line-height: 1.8em;
+	margin-bottom: 10px;
+}
+.testimonial h2{
+	display: none;
+	visibility: hidden;
+}
+.testimonial .field-name-body{
+    padding: 0 0 0 20px;
+    background: url('../images/quote.png') top left no-repeat;
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+.testimonial .field-name-body p{
+	padding: 0 20px 0 0;
+    background: url('../images/quoteAlt.png') bottom right no-repeat;
+
+}
+.testimonial .field-name-field-testimonial-name{
+	padding: 0 20px;
+	color: #888888;
+}
+	/* ------Sidebar Content-------*/
+	.node-type-for-teachers #sidebar-first h2,
+	.faq #sidebar-first .title,
+	.page-downloads #sidebar-first h2{
+	background-color:#182D77;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:lighter;
+	padding:15px;
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	line-height:26px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.node-type-for-teachers #page-title{
+	display: none;
+	visibility: hidden;
+}
+/* ======= about/contact section colors =========*/
+
+
+	/* ------Main Content-------*/
+.page-node-13 #main-wrapper #page-title,
+.page-node-16 #main-wrapper #page-title,
+.node-type-page #main-wrapper #page-title,
+.page-user #main-wrapper #page-title,
+.node-type-connection #page-title,
+.page-connections #page-title {
+	background-color:#73BC1E;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:lighter;
+	padding:15px;
+	margin: 0 0 15px 0;
+	line-height: 1.5em;
+}
+.page-node-13 #main-wrapper-inner,
+.page-node-16 #main-wrapper-inner,
+.node-type-page #main-wrapper-inner,
+.page-user #main-wrapper-inner,
+.node-type-connection #main-wrapper-inner,
+.page-connections #main-wrapper-inner{
+	line-height:1.9em;
+	padding:0 20px 40px;
+	text-align: justify;
+	border-left: 1px solid #348B04;
+	border-right: 1px solid #348B04;
+}
+
+.node-type-page #main-wrapper-inner{
+	text-align: left;
+
+}
+
+.page-node-16 #main-wrapper-inner{
+	text-align: left;
+}
+
+	/* ------Sidebar Content-------*/
+	.page-node-13 #sidebar-first h2,
+	.page-node-16 #sidebar-first h2,
+	.node-type-page #sidebar-first h2,
+	.node-type-connection #sidebar-first h2,
+	.page-connections #sidebar-first h2{
+	background-color:#348B04;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:lighter;
+	padding:15px;
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	line-height:26px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+/* ======= voices section colors =========*/
+
+body.page-node-14 #site-menu{
+	background: url('../images/headers/redHeaderFixed.jpg') 0 0 no-repeat !important;
+}
+body.page-node-14 #footer-first{
+	background: url('../images/footers/redFooter_fixed.jpg') 0 0 no-repeat !important;
+}
+body.page-node-14 div.main-menu{
+	background-color:#990000;
+}
+.page-node-14 div.main-menu li a{
+	background-color:#990000;
+	color:#FFFFFF;
+	display:block;
+	height:24px;
+	padding:1px 6px;
+	text-decoration:none;
+	line-height:2em;
+	border-right:3px solid #B90000 !important;
+}
+
+.page-node-14 div.main-menu li a:hover,
+.page-node-14 div.main-menu li.active-trail a{
+	background-color:#B90000;
+
+}
+	/* ------Main Content-------*/
+.page-node-14 #main-content .field-name-field-voices-title {
+	background-color:#B90000;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:lighter;
+	padding:15px;
+	margin: 0 0 15px 0;
+}
+.page-node-14 #main-wrapper-inner{
+	padding:0 20px 40px;
+	border-left: 1px solid #990000;
+	border-right: 1px solid #990000;
+}
+	/* ------Sidebar Content-------*/
+	.page-node-14 #sidebar-first h2{
+	background-color:#990000;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:lighter;
+	padding:15px;
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	line-height:26px;
+	text-transform: uppercase;
+}
+	
+.page-node-14 h1#page-title{
+	display: none;
+	visibility: hidden;
+}
+
+
+/*=============10 year timeline ===========*/
+.page-node-77 h1#page-title{
+	display: none;
+	visibility: hidden;
+}
+.view-original-students .views-row{
+	margin-bottom: 35px;
+}
+.view-original-students .views-field-title{
+	color: #447128;
+    font-size: 21px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.views-field .field-name-field-original-student-pic .field-item{
+	float: left;
+	margin-bottom: 0;
+	margin-right: 15px;
+}
+
+/*================ Infusionsoft Forms ==============*/
+.voice-fields .field,
+.ri-form-fields .field{
+	padding: 5px 0;
+}
+.voice-fields .field input,
+.ri-form-fields .field input,
+.voice-fields .field textarea{
+	border:1px solid #999;
+	float:left;
+	font-size:14px;
+	margin:5px 0;
+	min-height:20px;
+	width:70%;
+}
+.voice-fields .field label,
+.ri-form-fields .field label{
+	font-weight: bold;
+	float: left;
+	width: 25%;
+	margin-right: 20px;
+}
+.voice-fields .submit{
+	margin-left: 178px;
+    margin-top: 10px;
+}
+.ri-form-fields .submit{
+	margin-left: 183px;
+    margin-top: 10px;
+}
+.ri-form-fields .submit input{
+	float: left;
+	padding: 3px 15px;
+	background: #426CAE;
+	color: #FFFFFF;
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+.voice-fields .submit input{
+	float: left;
+	padding: 3px 15px;
+	background: #B90000;
+	color: #FFFFFF;
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.contact-fields .field{
+	padding: 5px 0;
+}
+.contact-fields .field input,
+.contact-fields .field textarea{
+	border:1px solid #999;
+	float:left;
+	font-size:14px;
+	margin:5px 0;
+	min-height:20px;
+	width:70%;
+}
+.contact-fields .field label{
+	font-weight: bold;
+	float: left;
+	width: 25%;
+	margin-right: 20px;
+}
+.contact-fields.submit{
+	margin-top: 30px;
+}
+.captcha input{
+	width: 34% !important;
+	height: 60px;
+	margin-top: 0 !important;
+	font-size:40px !important;
+}
+.captcha img{
+	margin-left: 16px;
+}
+.contact-fields .submit input {
+	float: left;
+	padding: 3px 15px;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+	background: #73BC1E;
+}
+.node-type-connection #connections-form .connections-submit input {
+	float: left;
+	padding: 3px 15px;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+	background: #73BC1E;
+	margin: 5px 0 0 185px;
+}
+
+#connections-form .connections-field input{
+	border:1px solid #999;
+	float:left;
+	font-size:14px;
+	margin:5px 0;
+	min-height:20px;
+	width:70%;	
+}
+#connections-form .connections-field label{
+	font-weight: bold;
+	float: left;
+	width: 25%;
+	margin-right: 20px;
+}
+#connections-form .connections-field label span{
+	color: red;
+}
+/*============Login Block============*/
+#colorbox #user-login{
+    background: url("../images/headers/blueHeaderlogin.jpg") no-repeat scroll 0 0 transparent;
+    height: 220px;
+    padding: 70px 0 0;
+    width: 396px;
+}
+#colorbox #user-login .form-item label{
+	color: #2a333a;
+}
+#colorbox #user-login .form-item input{
+	width: 394px;
+	height: 25px;
+	border: 1px solid #426CAE;
+}
+#colorbox #user-login .form-item .description{
+	color: #999;
+}
+#colorbox #user-login #edit-submit{
+    background-color: #426CAE;
+    border: medium none;
+    color: white;
+    float: right;
+    height: 30px;
+    width: 85px;
+}
+
+
+/*==========search for teacher========*/
+.view-lpm-teachers li{
+	list-style: none;
+}
+.view-lpm-teachers .views-row{
+    border: 1px solid #C48FDF;
+    float: left;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    position: relative;
+    width: 280px;
+    height: 130px;
+}
+
+.accepting{
+  	background: url("../images/contact-star.gif") no-repeat scroll 0 0 transparent;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+	height: 25px;
+	width: 25px;
+}
+.accepting .field{
+	display: none;
+}
+
+.certified{
+	background: url("../images/contact-nc.jpg") no-repeat scroll 0 0 transparent;
+    height: 26px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+}
+.certified div.field{
+	display: none;
+}
+.view-lpm-teachers li.hide{
+	display: none;
+}
+.view-lpm-teachers li.hide.show{
+	display: block !important;
+}
+.view-lpm-teachers li.first{
+	display: none;
+}
+.view-lpm-teachers ul {
+    margin-left: 0 !important;
+}
+.view-lpm-teachers .item-list ul li.views-row{
+	margin: 15px 8px 0 8px;
+}
+.view-lpm-teachers .user-picture{
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    z-index: 200;
+}
+.view-lpm-teachers .views-row .views-field{
+	padding-left: 130px;
+}
+
+.view-lpm-teachers .views-row h6{
+	margin-bottom: 5px;
+	font-family:Verdana,Geneva,sans-serif !important;
+}
+.view-lpm-teachers .views-row h6 a{
+	color: #0062A0;
+}
+.view-lpm-teachers .views-row h6 a:hover,
+.view-lpm-teachers .views-row h6:hover{
+	text-decoration: underline !important;
+	color: #0062A0;
+}
+/*===========Download pages============*/
+.view-download-pages .views-row{
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.file-title{
+	color: #004B91;
+	margin-bottom: 5px;
+}
+.downloadable-file a{
+	color: #004B91 ;	
+}
+.downloadable-file{
+	float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.downloadable-file a{
+    text-decoration: underline !important;
+}
+.field-icon{
+	float: right;
+}
+.edit-file-link{
+	position: absolute;
+	bottom:10px;
+	left:0;
+}
+
+#block-block-29{
+	background-color:#FEF5F1;
+	color:#A30000;
+	font-weight:lighter;
+    margin: 0 0 20px !important;
+	border: 1px solid #A30000;
+}
+#block-block-29 h2{
+	margin: 0 20px;
+	border-bottom: 1px dashed #A30000;
+}
+#block-block-29 .content{
+	padding: 0 20px 20px;
+}
+/*============Profile===========*/
+
+.profile .field{
+    font-size: 16px;
+    line-height: 30px;
+
+
+}
+.profile .field-name-field-user-full-name, 
+.profile .field-name-field-user-crossroads, 
+.profile .field-name-field-user-phone, 
+.profile .field-name-field-user-city, 
+.profile .field-name-field-user-state, 
+.profile .field-name-field-user-zip, 
+.profile .field-name-field-accepting-students{
+	width: 400px;
+	float: left;
+} 
+.profile .field-name-field-teacher-bio{
+	float: left;
+}
+.profile .field-name-field-teacher-bio .field-item{
+	float: left;
+}
+
+.profile .field-name-field-user-picture{
+	float: right;
+	
+}
+
+/*Infusionsoft Dashboard*/
+#infusionsoft-teacher-form .form-item{
+	float: left;
+	padding: 0 10px;
+}

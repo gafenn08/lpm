@@ -1,0 +1,34 @@
+<?php
+function lpm_alter_page_alter(&$page) {
+global $user;
+$role = "administrator";
+	  // Remove elements from the page.
+ 	if ($node = menu_get_object()){
+ 		if(REQUEST_TIME - $node->created < 86400*7000 && isset($page['content']['system_main']['nodes'][$node->nid]['field_page_image'])){
+	$images = $page['content']['system_main']['nodes'][$node->nid]['field_page_image']; 
+	$page['sidebar_second']['images'] = $images;
+	$page['sidebar_second']['images']['#weight'] = -100 ;
+	$page['sidebar_second']['#sorted'] = FALSE;
+	unset($page['content']['system_main']['nodes'][$node->nid]['field_page_image']);
+
+		}
+   	}
+	if(isset($page['content']['system_main'])){
+	if(!in_array($role, array_values($user->roles))  && $page['content']['system_main']['#view_mode'] != 'full'){
+		unset($page['content']['system_main']['field_certified_teacher']);
+	}
+   }
+ $page['content']['system_main']['field_user_full_name']['#object']->name =  $page['content']['system_main']['field_user_full_name']['#items']['0']['safe_value'] ;
+
+
+$path = drupal_get_path('module', 'lpm_alter');
+	$options = array(
+	'group' => JS_LIBRARY,
+	'cache' => FALSE,
+	'preprocess' => FALSE,
+	'defer' => TRUE,
+	);
+drupal_add_js($path . '/jquery.quicksearch.js', $options);
+
+
+}
